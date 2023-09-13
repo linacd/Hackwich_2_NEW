@@ -25,6 +25,15 @@
                                     <action selector="pressMeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zcg-Jd-UAi"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xk-rH-OtI">
+                                <rect key="frame" x="140" y="313" width="114" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="New Button"/>
+                                <connections>
+                                    <action selector="NewButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X4t-f8-Zag"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
