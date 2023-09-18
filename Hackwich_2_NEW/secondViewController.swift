@@ -16,26 +16,31 @@ class secondViewController: UIViewController {
     
     @IBOutlet weak var TextlabelColorChange: UILabel!
    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //Created var for label
         
         func changeTextButtonPressed(_ sender: UIButton) {
-            firstlabel.text = "Hello World"
+            firstlabel.text = "HelloWorld"
+        
             
         //Change text color to red
             firstlabel.textColor = UIColor.red
+            print(UIColor.red)
             
+        //Completed part 7 & 8
         }
         
         
     }
     @IBAction func ChangeColorButtonPressed(_ sender: UIButton) {
     // Change the background color to blue
-        view.backgroundColor = UIColor.blue
+        self.view.backgroundColor = UIColor.blue
         print(UIColor.blue)
         
+    //Completed part 1-6
         
     }
     
