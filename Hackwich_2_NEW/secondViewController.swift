@@ -30,10 +30,10 @@ class secondViewController: UIViewController {
             firstlabel.textColor = UIColor.red
             print(UIColor.red)
             
-        //Completed part 7 & 8
+        
         }
         
-        
+        //Parts 1-6
     }
     @IBAction func ChangeColorButtonPressed(_ sender: UIButton) {
     // Change the background color to blue
